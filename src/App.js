@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Workout from "./Workout/Workout";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div>
+        <h3>
+          <a
+            href="https://www.artofmanliness.com/health-fitness/fitness/the-ultimate-glossary-of-strength-and-conditioning-terms/
+"
+          >
+            Glossary of workout terms
+          </a>
+        </h3>
+        <div className="info">
+          <p>Each muscle area has activity options for working it.</p>
+          <p>Each set is counted by relevant metrics.</p>
+          <h3>Do 3 sets on the chosen muscle group.</h3>
+          <p>1st set gets you going</p>
+          <p>If you can barely do 12 reps, lower the weight.</p>
+          <p>2nd set challenges you</p>
+          <p>If you can do 25 easily, increase the weight.</p>
+          <p>3rd set fails the muscle by the end.</p>
+          <p>Push your self to the failure point by 12-15 reps.</p>
+          <p>Save each set as you finish.</p>
+        </div>
+        <Workout />
+      </div>
     </div>
   );
 }

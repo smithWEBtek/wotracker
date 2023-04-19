@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+.WorkoutApp {
+  border: 1px solid gray;
+  border-radius: 7px;
+  margin: 22px;
+  height: 90vh;
+};
+
+.info {
+  align-content: flex-start;
+};
