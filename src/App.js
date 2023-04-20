@@ -1,5 +1,7 @@
 import "./App.css";
+import Dashboard from "./Workout/Dashboard";
 import Workout from "./Workout/Workout";
+import { Button, TextField } from "@mui/material";
 
 function App() {
   return (
@@ -25,7 +27,15 @@ function App() {
           <p>Push your self to the failure point by 12-15 reps.</p>
           <p>Save each set as you finish.</p>
         </div>
+        <div>
+          <TextField id="name" label="Name" variant="outlined" />
+        </div>
+        <Button color="primary" variant="contained">
+          {" "}
+          Press me{" "}
+        </Button>
         <Workout />
+        <Dashboard />
       </div>
     </div>
   );
