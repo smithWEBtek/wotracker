@@ -1,5 +1,4 @@
 import "./App.css";
-import Dashboard from "./Workout/Dashboard";
 import Workout from "./Workout/Workout";
 import { Button, TextField } from "@mui/material";
 
@@ -35,7 +34,6 @@ function App() {
           Press me{" "}
         </Button>
         <Workout />
-        <Dashboard />
       </div>
     </div>
   );
